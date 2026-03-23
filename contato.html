@@ -10,7 +10,7 @@
 
         <div class="#titulo_principal"></div>
                 <h1>O senhor dos anéis</h1>
-                <h2>Uma das trilogias mais famosas do mundo!</h2>
+                <h2>Uma das trilogias mais famosas do mundo!Otorrinoláringologista<wbr>insetovermecu</h2>
                 <nav>
                    <a href="index.html">Home</a>
                    <a href="sinopse.html">Sinopse</a>
@@ -94,7 +94,56 @@
                             <option selected value="filme 1">Filme 1</option>
                             <option value="filme 2">Filme 2</option>
                             <option value="filme 3">Filme 3</option>
-                        </select>
+                        </select><br><br>
+
+                        <label for="nivel">Escolha o nível</label>
+                        <input type="range" max="10" min="1" id="nivel" name="nivel">
+
+                        <select id="lista_suspensa" name="lista">
+                            <optgroup label="Teste de legenda no combobox">
+                                <option value="Teste 1">Teste 1</option>
+                                <option value="Teste 2">Teste 2</option>
+                                <option value="Teste 3">Teste 3</option>
+                            </optgroup>
+                             <optgroup label="Teste de legenda no combobox 2">
+                                <option value="Teste 4">Teste 4</option>
+                                <option value="Teste 5">Teste 5</option>
+                                <option value="Teste 6">Teste 6</option>
+                            </optgroup>
+                        </select><br><br>
+
+                        <fieldset>
+                            <legend>Desenvolvimento Web</legend>
+                            <label><input type="checkbox" name="php">PHP</label>
+                            <label><input type="checkbox" name="CSS">CSS</label>
+                            <label><input type="checkbox" name="html5">HTML5</label>
+                            <label><input type="checkbox" name="js">JAVASCRIPT</label>
+                        </fieldset><br><br>
+
+                        <!--Datalist possíveis ganhadores da copa do mundo 2026-->
+                        <label for="busca_datalist">Campeão copa 2026?</label>
+                        <input type="text" id="busca_datalist" list="paises">
+                        <datalist id="paises">
+                            <option>Brasil</option>
+                            <option>Marrocos</option>
+                            <option>Portugal</option>
+                            <option>Argentina</option>
+                            <option>Espanha</option>
+                            <option>França</option>
+                        </datalist><br><br>
+
+                        <fieldset>
+                        <audio controls>
+                            <source src="audios/musica.mp3" type="audio/mp3">
+                            Navegador não é compatível para executar áudio!
+                        </audio><br><br>
+
+                        <video controls autoplay loop poster="">
+                            <source src="videos/videoteste.mp4" type="video/mp4">
+                        </video>
+                        </fieldset><br><br>
+
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tTby4GDRZvM?si=QLTBjcRNidMm8iE5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br>
 
                         <button type="reset">Limpar</button>
                         <button type="submit">Enviar</button>
