@@ -1,9 +1,15 @@
- #titulo_principal{
-                background-color: #00d8f5;
-                color: white;
-            }
+#titulo_principal{
+    background-color: #945902;
+    color: white;
+}
 
-            .titulo_secundario{
-                background-color: #ff0000;
-                color: white;
-            }
+.titulo_secundario{
+    background-color: #042b01;
+    color: white;
+}
+#layout{
+    display: flex;
+}
+.rodape{
+    text-align: center;
+}
