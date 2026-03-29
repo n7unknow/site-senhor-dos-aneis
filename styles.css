@@ -9,6 +9,7 @@
 }
 #layout{
     display: flex;
+    gap: 20px; /* espaço entre texto e imagem */
 }
 .rodape{
     text-align: center;
