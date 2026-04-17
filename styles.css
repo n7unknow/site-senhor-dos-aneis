@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 #titulo_principal{
     background-color: #945902;
     color: white;
@@ -7,10 +9,34 @@
     background-color: #042b01;
     color: white;
 }
-#layout{
-    display: flex;
-    gap: 20px; /* espaço entre texto e imagem */
-}
+
 .rodape{
     text-align: center;
+}
+
+body{
+    /*Topografia CSS*/
+    background-color: rgb(0,0,0); /*Cor de fundo*/
+    color: rgb(255,255,255); /*Cor da fonte*/
+    font-family: "Roboto", sans-serif; /*Fonte do texto*/
+    font-size: 16px;/*Tamanho da fonte - px/em/rem*/
+}
+
+#layout{
+    font-size: 1em;/*Herda o tamanho do body com um multiplicador*/
+    display: flex;
+    font-style: italic; /*Estilo da fonte: italic - normal - oblique*/
+    line-height: 30px; /*Espaçamento em linhas*/
+    font-weight: 400; /*Negrito em css 100 a 900 bold e bolder*/
+    text-transform: none; /*Capitalização do texto: uppercase - lowercase - capitalize*/
+    text-decoration: none; /*Sublinhado de texto: underline ou overline - double - dashed - dotted - wavy - none*/ 
+    word-spacing: 1px; /*Espaçamento entre as palavras*/
+    letter-spacing: 3px; /*Espaçamento entre letras*/
+    text-indent: 5px; /*Espaçamento de parágrafo primeira linha*/
+    text-align: center; /*Alinhamento de texto: left - right - justify - center*/
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
 }
