@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 #titulo_principal{
-    background-color: #945902;
+    background-color: #135a10;
     color: white;
 }
 
@@ -23,8 +23,9 @@ body{
 }
 
 #layout{
-    font-size: 1em;/*Herda o tamanho do body com um multiplicador*/
+    font-size: 1em;/*Herda o tamanho do "pai" com um multiplicador*/
     display: flex;
+    flex-direction: none; /*Usado para definir a direção dos elementos que são filhos de um display flex*/
     font-style: italic; /*Estilo da fonte: italic - normal - oblique*/
     line-height: 30px; /*Espaçamento em linhas*/
     font-weight: 400; /*Negrito em css 100 a 900 bold e bolder*/
@@ -35,8 +36,26 @@ body{
     text-indent: 5px; /*Espaçamento de parágrafo primeira linha*/
     text-align: center; /*Alinhamento de texto: left - right - justify - center*/
     gap: 20px;
+
+    border-style: double; /*Estilo da borda: solid, dashed, dotted, double, groove, ridge, inset, outset*/
+    border-width: 20px; /*Espessura da borda*/
+    border-color: #042b01; /*Cor da borda*/
+    /*"border: style width color" Definir tudo em uma só linha*/
+    /*border-top: dotted 10px rebeccapurple; border-left: dotted 20px red; border-bottom: solid 15px #fff000; border-right: estilizar lado direito da borda*/
+    border-radius: 20px; /*Arredondar borda - px / % */
+    margin-left: 5px; /*Margem da esquerda fora da borda*/
+    margin-right: 5px; /*Margem da direita fora da borda*/
+    margin-bottom: 5px; /*Margem de baixo fora da borda*/
+    margin-top: 5px; /*Margem de cima fora da borda*/
+    padding: 5px; /*Espaçamento entre o conteúdo e a borda, margem dentro da borda também segue o padrão left right bottom e top*/
 }
 
 nav a{
     text-decoration: none;
+}
+
+.teste_display{
+    background-color: none;
+    display: inline; /*Inline, mesma linha sem definir altura e largura. Block o oposto. inline-block junta os dois e fica um do lado do outro*/
+    /*width: 200px; height: 200px;*/
 }
